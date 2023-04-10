@@ -1,0 +1,59 @@
+span.word {
+    padding: 0.25em 0.35em;
+    margin: 0.25px 0.25em;
+    line-height: 1;
+    display: inline-block;
+    border-radius: 0.25em;
+    border: 1px solid;
+    font-weight: bold;
+
+}
+
+span.word.PERSON {
+    background: rgb(166, 226, 45);
+    border-color: rgb(166, 226, 45);
+}
+
+span.word.DATE {
+    background: rgb(47, 187, 171);
+    border-color: rgb(47, 187, 171);
+}
+
+span.word.ORG {
+    background: rgb(67, 198, 252);
+    border-color: rgb(67, 198, 252);
+}
+
+span.word.NORP {
+    background: rgb(207, 96, 147);
+    border-color: rgb(207, 96, 147);
+}
+
+span.tag {
+    box-sizing: border-box;
+    font-size: 0.6em;
+    line-height: 1;
+    padding: 0.35em;
+    border-radius: 0.35em;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    background: white;
+}
+
+/* span.tag.PERSON {
+    background: rgb(166, 226, 45);
+}
+
+span.tag.DATE {
+    background: rgb(47, 187, 171);
+}
+
+span.tag.ORG {
+    background: rgb(67, 198, 252);
+}
+
+span.tag.NORP {
+    background: rgb(207, 96, 147);
+} */
